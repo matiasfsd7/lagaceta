@@ -20,7 +20,6 @@ h4 {
   justify-content: space-evenly;
 }
 .nav-bar {
-  flex-direction: column;
   justify-content: space-between;
   background-color: brown;
   width: 18rem;
@@ -32,6 +31,12 @@ h4 {
 @media (min-width: 576px) {
   .nav-bar {
     width: 30rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .nav-bar {
+    width: 75rem;
   }
 }
 
@@ -116,15 +121,22 @@ h3 {
 }
 
 footer {
+  margin-top: auto;
   display: flex;
   justify-content: center;
   color: aliceblue;
   background-color: black;
-  margin-top: auto;
 }
 
 @media (min-width: 576px) {
   .footer {
     margin-top: auto;
   }
+}
+
+footer {
+  font-family: "Andika", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
